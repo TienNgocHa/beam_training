@@ -8,9 +8,9 @@ Quick start
 	pip install .
 
    - Or, if you have `uv` installed, sync dependencies with:
-
+```bash
 	uv sync
-
+```
 2. Initialize and update the `gsim` submodule:
 ```bash
 	cd gsim
@@ -19,9 +19,9 @@ Quick start
 	cd ..
 ```
 3. Run the GSIM installer script (this will create `gsim_conf.py`):
-
+```bash
 	bash gsim/install.sh
-
+```
 4. Edit `gsim_conf.py` and set the module name to the beamforming experiments module:
 
 	module_name = "experiments.beamforming_experiments"
@@ -32,9 +32,9 @@ https://github.com/fachu000/GSim-Python
 Running an experiment
 
 To run an experiment, call `run_experiment.py` with the experiment number. Example:
-
+```bash
     python run_experiment.py 1001
-
+```
 Citation
 
 If this repository or the results are helpful, please cite:
