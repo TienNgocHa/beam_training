@@ -12,12 +12,12 @@ Quick start
 	uv sync
 
 2. Initialize and update the `gsim` submodule:
-
+```bash
 	cd gsim
 	git submodule init
 	git submodule update
 	cd ..
-
+```
 3. Run the GSIM installer script (this will create `gsim_conf.py`):
 
 	bash gsim/install.sh
