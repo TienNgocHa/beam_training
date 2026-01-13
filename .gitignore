@@ -1,0 +1,13 @@
+__pycache__/
+.vscode/
+.DS_Store
+.venv/
+output
+data/
+
+# Added by GSim
+run_experiment.py
+
+
+# Added by GSim
+gsim_conf.py

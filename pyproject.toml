@@ -1,0 +1,11 @@
+[project]
+name = "beam-training"
+version = "0.1.0"
+requires-python = "==3.10.19"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "scipy>=1.15.3",
+    "tqdm>=4.67.1",
+]
