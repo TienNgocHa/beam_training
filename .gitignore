@@ -3,7 +3,7 @@ __pycache__/
 .DS_Store
 .venv/
 output
-data/
+# data/
 
 # Added by GSim
 run_experiment.py
